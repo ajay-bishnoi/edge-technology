@@ -1,0 +1,147 @@
+:root {
+  --fs-16: 16px;
+  --fs-18: 18px;
+  --fs-25: 25px;
+  --fs-32: 32px;
+  --fs-48: 48px;
+  /* clr */
+  --white: #ffffff;
+  --black: #000000;
+  --l-green: #6e9277;
+  --blk-108: #001008;
+  --gray: #f5f8f6;
+}
+/*--------------------------- clr --------------- */
+.clr-black {
+  color: var(--black);
+}
+.clr-white {
+  color: var(--white);
+}
+.clr-black2 {
+  color: var(--blk-108);
+}
+.clr-l-green {
+  color: var(--l-green);
+}
+.clr-black2 {
+  color: var(--blk-108);
+}
+/*  */
+.bg-gray {
+  background-color: var(--gray);
+}
+.bg-black {
+  background-color: var(--black);
+}
+.bg-white {
+  background-color: var(--white);
+}
+
+/* -------------------------font-size----------- */
+
+.fs-16 {
+  font-size: var(--fs-16);
+}
+.fs-18 {
+  font-size: var(--fs-18);
+}
+
+.fs-25 {
+  font-size: var(--fs-25);
+}
+.fs-32 {
+  font-size: var(--fs-32);
+}
+.fs-48 {
+  font-size: var(--fs-48);
+}
+
+/* -------------------------line-height-------------- */
+
+.lh-19 {
+  line-height: 19px;
+}
+.lh-24 {
+  line-height: 24px;
+}
+.lh-32 {
+  line-height: 32px;
+}
+.lh-46 {
+  line-height: 46px;
+}
+.lh-62 {
+  line-height: 62px;
+}
+/* ----------------------------------responsive----------------- */
+@media (min-width: 1441px) {
+  .max-1440 {
+    max-width: 1440px !important;
+  }
+}
+@media (max-width: 1400px) {
+}
+@media (max-width: 1200px) {
+  .gap-40 {
+    gap: 24px;
+  }
+  .max-510 {
+    max-width: unset !important;
+  }
+  .py-40 {
+    padding: 28px;
+  }
+  .mxw-360 {
+    max-width: 360px !important;
+  }
+}
+@media (max-width: 991.5px) {
+  .h-390 {
+    height: unset !important;
+  }
+  .mxw-360 {
+    max-width: unset !important;
+  }
+}
+@media (max-width: 767.5px) {
+}
+@media (max-width: 575.5px) {
+  :root {
+    --fs-16: 16px;
+    --fs-18: 18px;
+    --fs-25: 25px;
+    --fs-32: 28px;
+    --fs-48: 36px;
+  }
+  .lh-62 {
+    line-height: 45px;
+  }
+  .mb-60 {
+    margin-bottom: 42px;
+  }
+  .p-30 {
+    padding: 16px 24px;
+  }
+  .mb-27 {
+    margin-bottom: 16px;
+  }
+  .mb-16 {
+    margin-bottom: 12px;
+  }
+  .py-40 {
+    padding: 16px 0;
+  }
+  .lh-46 {
+    line-height: 41px;
+  }
+  .py-42 {
+    padding: 22px 0;
+  }
+  .Edge::after {
+    display: none !important;
+  }
+  .Edge::before {
+    display: none !important;
+  }
+}
